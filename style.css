@@ -1,0 +1,55 @@
+body {
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  font-family: "sans"
+}
+
+h1.warning {
+  color: salmon;
+}
+
+#state {
+  color: orange;
+}
+
+#info {
+  color: darkgray;
+}
+
+#title {
+  color: darkgray;
+}
+
+
+#control {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#control span {
+  color: darkgray;
+  cursor : pointer;
+}
+
+#control span:hover  {
+  color: white;
+}
+
+#control span.active {
+  color: orange;
+}
+
+
+p.about {
+  color: darkgray;
+}
